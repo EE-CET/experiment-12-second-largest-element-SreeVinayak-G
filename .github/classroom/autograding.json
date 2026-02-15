@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Example 1",
+      "setup": "javac src/SecondLargest.java",
+      "run": "java -cp src SecondLargest",
+      "input": "6\n3 2 1 5 6 4",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Example 2",
+      "setup": "javac src/SecondLargest.java",
+      "run": "java -cp src SecondLargest",
+      "input": "9\n10 1 7 2 5 6 8 9 3",
+      "output": "9",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Duplicate Largest (10 10 5)",
+      "setup": "javac src/SecondLargest.java",
+      "run": "java -cp src SecondLargest",
+      "input": "3\n10 10 5",
+      "output": "10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Negative Numbers",
+      "setup": "javac src/SecondLargest.java",
+      "run": "java -cp src SecondLargest",
+      "input": "5\n-10 -5 -2 -20 -1",
+      "output": "-2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
