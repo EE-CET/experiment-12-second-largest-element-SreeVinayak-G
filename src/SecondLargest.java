@@ -14,7 +14,7 @@ public class SecondLargest {
                         if(arr[i]>fLargest){
                                 sLargest = fLargest;
                                 fLargest = arr[i];
-                        }else if(arr[i]>sLargest && arr[i]!=fLargest){
+                        }else if(arr[i]>sLargest){
                                 sLargest = arr[i];
                         }
                 }
